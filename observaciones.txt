@@ -1,0 +1,11 @@
+-Deben organizar los archivos de bootstrap en sus respectivas carpetas
+-Deben corregir el menú de navegación
+-Algunas secciones no están terminadas
+-Algunas secciones no tienen similitud con el mockup
+-Deben dejar de usar la propiedad float como clase
+-Deben quitar todo el css que estén colocando en el html
+-Deben organizar el orden de la carga de los achivos css
+-O llamando los archivos por cdn o llamado local, combinar las dos no es una buena practica
+-No saben usar el sistema de 12 columnas de bootstrap, por ende el sitio web no es responsive
+
+Les dejo algunas capturas de pantalla en la carpeta obs
