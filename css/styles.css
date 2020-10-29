@@ -1,31 +1,39 @@
-
 *{
     outline: 0 !important;
     margin: 0px;
 }
 
 .home{
-    background: linear-gradient(to right, #93cede 0%, #96cbcb 30%, #49a5bf 100%);
+    background: linear-gradient(to right, #c2ebeb 0%, #8bbfbf 30%, #4f9999 100%);
+    height: 800px;
 }
 
-.logoHeader{
-    width: 60%;
-} 
+.logo{
+    width: 60px;
+}
+
+.nav-link{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.icon-menu{
+    font-size: 1.6rem;
+}
 
 .tittle-home1{
     font-family: 'Poppins', sans-serif;
-    font-size: 73px
-    
+    font-size: 60px; 
 }
 
 .tittle-home{
     font-family: 'Poppins', sans-serif;
-    font-size: 50px;
 
 }
 .btnHeader{
     background: #00a9ac;
-    color: #cbebeb;
+    color: white;
     border: 0px;
     padding: 0.5rem 2rem;
     cursor: pointer;
@@ -33,97 +41,255 @@
 }
 
 .pictureHome{
-    width: 100%;
+    width: 60%;
+    align-items: right;
 } 
+
+.tecnicas{
+    background: white;
+}
+
+.tittle-tecnicas{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-family: 'Poppins', sans-serif;
+    text-align: end;
+}
 
 .text{
     font-family: 'Samsung Sharp Sans';
     font-weight: bold;
     font-style: normal;
     font-size: 12px;
+    padding: 5px;
 }
 
-.poppins-tex{
-    font-family: 'poppins';
+.textTecnicas{
+    font-family: 'Samsung Sharp Sans';
     font-weight: bold;
     font-style: normal;
     font-size: 12px;
-    line-height:0.3rem;
+    text-align: justify;
 }
-.poppins-tex2{
-    font-family: 'poppins';
-    font-weight: bold;
-    font-style: normal;
-    font-size: 18px;
-    line-height:0.3rem;
+
+.img-mano{
+    position: absolute;
+    width: 30%;
+    margin-left: 64%;
 }
-.justAnotherHand-tex{
-    font-family: 'just Another Hand';
-    font-style: normal;
-    font-size: 25px;
-    line-height:1rem;
+
+.img-tecnicas{
+    width: 30%;
+}
+
+.metodología{
+    background: #eac6e0;
+    height: 250px;
+    padding: 40px;
+}
+
+.tittle-metodologia{
+    font-family: 'Poppins', sans-serif;
 }
 
 .btnMetodología{
-    background: #000000;
-    color: #ccc9c9;
+    background: #454545;
+    color: white;
     border: 0px;
     padding: 0.5rem 2rem;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
 }
-.bgMetodologia{
-    background-color: #eac6e0;
-    padding-left: 10%;
-    width: 100%;
-}
-.bgEquipo{
-    background-color: #ffcab8;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 7%;
-    width: 100%;
+
+.conócenos{
+    background: white;
+    height: 500px;
+    padding: 20px;
 }
 
-.bgNone{
-    background-color: #ffccb9;
-    padding-left: 10%;
-    padding-right: 10%;
-    width: 100%;
+.tittle-conocenos{
+    font-family: 'Poppins', sans-serif;
+    border: #0a0a0a 2px solid;
+    width: 17%;
+    padding: 15px;
+    text-align: center;
 }
-.tittle-body{
+
+.textConocenos{
+    font-family: 'Samsung Sharp Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.img-pincel{
+    width: 80%;
+}
+
+.equipo{
+    background: #ffccb9;
+    height: 500px;
+}
+
+.tittle-equipo{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Poppins', sans-serif;
 }
 
-.pictureTecnicas{
-    width: 30%;
+.nombre{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    width: 23%;
+    padding: 4px;
+    border-radius: 15px;
 }
 
-.pictureMetodología{
-    width: 33%;
+.caracteristicas{
+    font-family: 'Just Another Hand', cursive;
+    font-size: 25px;
 }
 
 .pictureEquipo{
-    width: 15%;
+    width: 18%;
 }
+
+.picturesEquipo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nombresEquipo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.caracteristicasEquipo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.museo{
+    height: 500px;
+    background: white;
+    padding: 30px; 
+}
+
+.tittle-museo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    border: #0a0a0a 3px solid;
+    width: 15%;
+    padding: 13px;
+    text-align: center;
+}
+
+.clasificacionProfesores{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.clasificacionEstudiantes{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    margin-right: 40px;
+}
+
+.clasificacionProyectos{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    margin-right: 50px;
+}
+
 .pictureMuseo{
-    width: 15%;
+    width: 18%;
 }
 
-.navbar-custom {     
-    background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(150,203,203,1) 23%, rgba(150,203,203,1) 30%, rgba(73,165,191,1) 100%);    
-} 
-
-.pollito{
-    background: "img/Pinceles.png";
+.picuresmuseo{
+    margin: 5px 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
 }
 
-font-family: 'Just Another Hand', cursive;
+.textmuseo{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
+.end-page{
+    background: #fad27c;
+}
 
-    /*Tipografias*/
-    --fs: 18px
-    --ff: 'Poppins', sans-serif;
+.logoFooter{
+    width: 10%;
+}
+
+.formulario h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.formulario input{
+    width: 80%;
+    height: 20px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.correo{
+    width: 25%;
+    height: 50px;
+    padding: 15px;
+    resize: none;
+    margin: none !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.mensaje{
+    width: 25%;
+    height: 100px;
+    padding: 15px;
+    resize: none;
+    margin: none !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.btnEnviar{
+    background: #000000;
+    color: white;
+    border: 0px;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.img-footer{
+    cursor: pointer;
+}
+
+/*Tipografias
+ --fs: 18px
+ --ff: 'Poppins', sans-serif;*/
 
 
 /*Página emergente Registro*/
@@ -132,8 +298,6 @@ font-family: 'Just Another Hand', cursive;
     padding: 0px;
     margin: 0;
     text-decoration: none;
-    /* font-family: 'Samsung Sharp Sans'; */
-    font-family: 'Poppins', sans-serif;
  }
  
  .contenedor-padre{

@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Pinaco</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Pinaco</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-
+    <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="imagelx-icon" href="img/Logo_header.png">
 </head>
 
     <section class="modals">
@@ -92,159 +93,202 @@
         
 <!-- CODIFICACIÓN HOME -->
 
-<body class="hold-transition sidebar-mini">
+<body>
+    <section class="home">     
+        <header class="container py-3">
+                <nav class="navbar navbar-expand-lg">
+                    <a href="#" class="navbar-brand logo"><img class="img-fluid" src="img/Logo_header.png" alt="section-header"></a>
+                    <button class="navbar-toggler"  data-toggle="collapse" data-target="#mainMenu"  aria-expanded="false">
+                        <span class="fas fa-bars icon-menu"></span>
+                    </button>
 
-    <section class="home">   
-        <nav class="navbar navbar-light navbar-custom">
-            <button class="navbar-toggler left border-0" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="true" aria-label="Toggle navigation">
-                <img class="logoHeader" src="img/Logo_header.png" alt="">
-                <span class="navbar-toggler-icon"></span>
-            </button>      
-            <div class="navbar-collapse collapse show" id="navbarsExample01" style="">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                <a class="nav-link" href="#">Técnicas<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Metodologías</a>
-                </li>            
-            </div>
-        </nav>    
-        <div class="container d-flex-align-items-left">
-            <div class="row align-items-left">
-                <div class="col-md-6">                                 
+                    <div class="collapse navbar-collapse" id="mainMenu">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                               <a class="nav-link" href="#Técnicas">Técnicas</a> 
+                            </li>
+                            <li class="nav-item">
+                               <a class="nav-link" href="#Metodología">Metodología</a>
+                            </li>
+                            <li class="nav-item">
+                               <a class="nav-link" href="#¿Quiénes somos?">¿Quiénes somos?</a>
+                            </li>
+                            <li class="nav-item">
+                               <a class="nav-link" href="#Conócenos">Conócenos</a>
+                            </li>
+                            <li class="nav-item">
+                               <a class="nav-link" href="#Museo">Museo</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+        </header>
+
+    <section class="container">
+        <div class="row justify-content-start">
+            <article class="cold-md-6">                            
                 <h1 class="tittle-home1">PINTURA</h1>
                 <h1 class="tittle-home">PARA TODOS</h1>
-                <button data-toggle="modal" data-target="#registro" class="btnHeader">Ingresar</button>
-                </div>                
-                <div class="col-md-6 align-items-rigth">
-                    <img class="pictureHome img-fluid float-right" src="img/Chico.png">                    
-                </div>
+                <button data-toggle="modal" data-target="#registro" class="btnHeader mt-4">Ingresar</button>
+            </article>     
 
+            <picture class="cold-md-6 cold-sm-12">
+                <img class="pictureHome img-fluid float-right" src="img/Chico.png"> 
+            </picture>
+        </div>                                
+    </section>
+
+    <section id="Técnicas" class="tecnicas">
+         <div class="container">
+
+            <div>
+                <h2 class="tittle-tecnicas">TÉCNICAS</h2>
             </div>
+
+            <div>
+                <p class="textTecnicas">En Pinaco utilizamos principalmente dos técnicas de pintura,<br>acuarela y vinilos, porque son
+					recursivas, de fácil acceso, además<br>son económicas; con estas podrás hacer tus propias obras de
+					arte.</p>
+            </div>
+
+            <div>
+             <img class="img-tecnicas" src="img/Acuarelas.png" alt="section-tecnicas">
+            <img class="img-tecnicas" src="img/Vinilos.png" alt="section-tecnicas">
+            </div>
+
+            <div>
+                <img class="img-mano" src="img/Pinceles.png">
+            </div>
+            
         </div>
     </section>
     
-    <section class="d-flex justify-content-center mt-4">
-        <div class="float-center poppins-tex mr-2">
-            <p class="text-right">En Pinaco utilizamos principalmente dos técnicas de pintura,</p>
-            <p class="text-right">acuarela y vinilos, porque son recursivas, de fácil acceso, además</p>
-            <p class="text-right">son económicas; con estas podrás hacer tus propias obras de arte.</p>            
-        </div>
-
-        <div class="float-center ml-2 my-auto">
-            <h2 class="border border-dark"> TÉCNICAS </h2>
-        </div>
-     </section>
-
-
-    
-    <section class="d-flex">          
-        <div>
-            <div class="align-items-left">
-                <img class="pictureTecnicas img-fluid" src="img/Acuarelas.png" >
-                <img class="pictureTecnicas img-fluid" src="img/Vinilos.png" >                
-                <img class="pictureMetodología img-fluid float-right" src="img/Pinceles.png" alt="section-metodología">
-                
-            </div>
-            <div class="bgMetodologia align-items-left">
-                <h2 class="tittle-body pt-5 mb-3">METODOLOGÍA</h2>
-                <p class="text-left poppins-tex">Te acompañamos a expresar y comunicar por medio de la pintura tu pasión por el arte; </p>
-                <p class="text-left poppins-tex">en Pinaco irás subiendo de nivel a medida que vayas avanzando. Con nosotros </p>
-                <p class="text-left poppins-tex">tendrás la libertad de escoger cual de las dos técnicas principales de pintura te gusta más.</p>
-                <button data-toggle="modal" data-target="#registro" class="btnMetodología mt-3 mb-3">Ingresar</button>
-            </div>   
-        </div>           
-    </section>
-    
-    
-
-    <section class="d-flex justify-content-center mt-4">
-                <div lass="float-center mr-3 my-auto">
-                    <h2 class="border border-dark">¿QUIÉNES SOMOS?</h2>
-                </div>
-                <div class="float-center poppins-tex ml-3">
-                    <p class="text-left ">Somos un curso de pintura online; nuestro fin es</p>
-                    <p class="text-left ">ofrecer un servicio de calidad que promueva un</p>
-                    <p class="text-left ">aprendizaje creativo, didáctico e integral a todos</p>
-                    <p class="text-left ">nuestros usuarios. Con nosotros podrás desarrollar</p>
-                    <p class="text-left ">tu potencial social, emocional y artístico.</p>
-                </div>
-    </section>
-
-    <section class="d-flex flex-column">
-        <div>
-            <div style="margin-bottom: -24em;">
-                <img class="img-fluid" src="img/Pincel.png">
-            </div>
-            <div class="bgEquipo">
-                <div>
-                    <h2 class="tittle-body text-center">EQUIPO</h2>
-                </div>
-                <div class="d-flex flex-row">
-                    <div class="card bg-transparent border-0" style="width: 18rem;">
-                        <img src="img/Foto Mariana.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title poppins-tex2">Mariana Quintero López</h5>
-                            <p class="card-text justAnotherHand-tex">Detallista - Ordenada - Responsable.</p>                        
-                        </div>
+    <section id="Metodología" class="metodología">
+                <div class="container">
+                    <div>
+                        <article>
+                            <h2 class="tittle-metodologia">METODOLOGÍA</h2>
+                            <P class="text">Te acompañamos a expresar y comunicar por medio de la pintura tu pasión por el arte;<br>en Pinaco irás subiendo 
+                            de nivel a medida que vayas avanzando. Con nosotros tendrás<br>la libertad de escoger cual de las dos técnicas principales 
+                            de pintura te gusta más.</P>
+                            <button data-toggle="modal" data-target="#registro" class="btnMetodología">Ingresar</button>
+                        </article>
                     </div>
-                    <div class="card bg-transparent border-0" style="width: 18rem;">
-                        <img src="img/Foto Ximena.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title poppins-tex2">Ximena Sofía Estrada</h5>
-                            <p class="card-text justAnotherHand-tex">Divertida - Espontánea - Sincera.</p>                        
-                        </div>
-                    </div>    
-                    <div class="card bg-transparent border-0" style="width: 18rem;">
-                        <img src="img/Foto Jenifer.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title poppins-tex2">Jenifer Jaramillo López</h5>
-                            <p class="card-text justAnotherHand-tex">Carismática - Creativa - Recursiva.</p>                        
-                        </div>
-                    </div> 
-                    <div class="card bg-transparent border-0" style="width: 18rem;">
-                        <img src="img/Foto Santiago.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title poppins-tex2">Santiago José Galindo</h5>
-                            <p class="card-text justAnotherHand-tex">Paciente - Apasinado - Meticuloso.</p>                        
-                        </div>
-                    </div>                
                 </div>
+            </section>
+        
+        <section id="¿Quiénes somos?" class="conócenos">
+            <div class="container">
+                    <div>
+                        <h2 class="tittle-conocenos">¿QUIÉNES<br>SOMOS?</h2>
+                    </div>
+    
+                    <div>
+                        <p class="textConocenos">Somos un curso de pintura online; nuestro fin es<br>ofrecer un servicio de calidad que promueva un<br>aprendizaje 
+                        creativo, didáctico e integral a todos<br>nuestros usuarios. Con nosotros podrás desarrollar<br>tu potencial social, 
+                        emocional y artístico.</p>
+                    </div>
+
+                    <div>
+                        <img class="img-pincel" src="img/Pincel.png">
+                    </div>
+
+                </div>
+        </section>
+    
+        <section id="Conócenos" class="equipo">
+            <section class="container">
+                
+                <h2 class="tittle-equipo">EQUIPO</h2>
+            
+            <div class="picturesEquipo"> 
+               <img class="pictureEquipo img-fluid" src="img/Foto Mariana.png" alt="section-equipo">
+               <img class="pictureEquipo img-fluid" src="img/Foto Ximena.png" alt="section-equipo">
+               <img class="pictureEquipo img-fluid" src="img/Foto Jenifer.png" alt="section-equipo">
+               <img class="pictureEquipo img-fluid" src="img/Foto Santiago.png" alt="section-equipo">
+            </div> 
+              
+            <div class="nombresEquipo">
+               <h4 class="nombre">Mariana Quintero López</h4>
+               <h4 class="nombre">Ximena Sofía Estrada</h4>
+               <h4 class="nombre">Jenifer Jaramillo López</h4>
+               <h4 class="nombre">Santiago José Galindo</h4>
+            </div>
+                    
+            <div class="caracteristicasEquipo">
+               <h4 class="caracteristicas">Detallista - Ordenada - Responsable</h4>    
+               <h4 class="caracteristicas">Divertida - Espontánea - Sincera</h4>
+              <h4 class="caracteristicas">Carismática - Creativa - Recursiva</h4>
+              <h4 class="caracteristicas">Paciente - Apasinado - Meticuloso</h4>
+            </div>
+            </div>
+        
+         </section>
+        </section>
+    
+    
+        <section id="Museo" class="museo">
+            <div class="container">
+                <h2 class="tittle-museo">MUSEO</h2>
+
+                <div class="picuresmuseo mt-5">
+                        <img onmouseout="this.src='img/Profesores.jpg'" onmouseover="this.src='img/Profesores2.jpg'" class="pictureMuseo" src="img/Profesores.jpg" alt="">
+                        <img onmouseout="this.src='img/Estudiantes.jpg'" onmouseover="this.src='img/Estudiantes2.jpg'" class="pictureMuseo" src="img/Estudiantes.jpg" alt="">
+                        <img onmouseout="this.src='img/Proyectos.jpg'" onmouseover="this.src='img/Proyectos2.jpg'" class="pictureMuseo" src="img/Proyectos.jpg" alt="">
+                </div> 
+
+                <div class="textmuseo">
+                    <h4 class="clasificacionProfesores">Obras de profesores</h4>
+                    <h4 class="clasificacionEstudiantes">Obras de estudiantes</h4>
+                    <h4 class="clasificacionProyectos">Proyectos</h4>
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="end-page">
+            <section class="container">
+            <div class="row">
+                <img class="logoFooter" src="img/Logo_footer.png" alt="section-footer">
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h5>©Pinaco 2020 <br> Todos los derechos reservados</h5>
+                </div>
+            </div>
+
+            <div class="col text-center">
+                <form class="formulario">
+                <h5>Si tienes dudas o sugerencias ¡Escríbenos!</h5>
+                <textarea class="correo" placeholder="Correo electrónico"></textarea> <br>
+                <textarea class="mensaje" placeholder="Escribe tu mensaje"></textarea>
+
+                <div class="btnFooter">
+                    <button class="btnEnviar">Enviar</button>
+                </div>
+                </form>
+            </div>
+
+            <div class="col">
+                <img class="img-footer" src="img/Whatsapp.png" alt="">
+                <h6 href="#">3005394452</h6>
+                <img class="img-footer" src="img/Facebook.png" alt=""> 
+                <h6 href="#">Curso Pinaco</h6>
+                <img class="img-footer" src="img/Instagram.png" alt=""> 
+                <h6 href="#">@pinaco_cursonline</h6>
+                <img class="img-footer" src="img/Gmail.png" alt="">
+                <h6 href="#">cursonlinepinaco@gmail.com</h6>
             </div>
         </div>
     </section>
-
-    <section class="d-flex justify-content-center mt-4">
-        <div lass="float-center mr-3 my-auto">
-            <h2 class="tittle-body text-center border border-dark">MUSEO</h2>
-        </div>  
-    </section>
-
-    <section>
-        <div class="d-flex flex-row justify-content-center">
-            <div class="card ml-5 mr-5 border-0" style="width: 18rem;">
-                <img src="img/Profesores.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text poppins-tex2 text-center">Obras de profesores</p>
-                </div>
-            </div>
-            <div class="card ml-5 mr-5 border-0" style="width: 18rem;">
-                <img src="img/Estudiantes.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text poppins-tex2 text-center">Obras de estudiantes</p>
-                </div>
-            </div>
-            <div class="card ml-5 mr-5 border-0" style="width: 18rem;">
-                <img src="img/Proyectos.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text poppins-tex2 text-center">Proyectos</p>
-                </div>
-            </div>            
-        </div>
-    </section>
-</body>
-
-<!-- jQuery -->
+    </footer>
+    
+    <!-- jQuery -->
 <script src="bootstrap/js/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
