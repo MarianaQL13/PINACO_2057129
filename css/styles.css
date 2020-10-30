@@ -4,18 +4,32 @@
 }
 
 .home{
-    background: linear-gradient(to right, #c2ebeb 0%, #8bbfbf 30%, #4f9999 100%);
-    height: 800px;
+    background: url("../img/Chico-header.png")  #8bbfbf;
+    /*background: linear-gradient(to right, #c2ebeb 0%, #8bbfbf 30%, #4f9999 100%);*/
+    height: 797px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: content;
 }
 
 .logo{
     width: 60px;
+    margin-left: 30px;
+}
+
+.container-nav{
+    backdrop-filter: blur(5px);
+    background: rgb(0 0 255 / 10%);
 }
 
 .nav-link{
-    color: black;
+    color: white;
+    background: #8bbfbf;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    margin: 1rem;
 }
 
 .icon-menu{
@@ -24,13 +38,24 @@
 
 .tittle-home1{
     font-family: 'Poppins', sans-serif;
-    font-size: 60px; 
+    font-size: 5rem;
 }
 
 .tittle-home{
     font-family: 'Poppins', sans-serif;
-
+    font-size: 3.4rem;
 }
+
+.container-header{
+    align-items: center;
+    display: flex;
+}
+
+.article-header{
+    margin-top: -30rem;
+    transform: translateY(0rem);
+}
+
 .btnHeader{
     background: #00a9ac;
     color: white;
@@ -102,7 +127,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.conócenos{
+.container-conocenos{
     background: white;
     height: 500px;
     padding: 20px;
@@ -129,10 +154,10 @@
 
 .equipo{
     background: #ffccb9;
-    height: 500px;
 }
 
 .tittle-equipo{
+    color: black;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -143,42 +168,31 @@
 .nombre{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
-    background-color: white;
-    width: 23%;
+    background: white;
+    color: black;
+    width: 100%;
     padding: 4px;
-    border-radius: 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .caracteristicas{
     font-family: 'Just Another Hand', cursive;
     font-size: 25px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .pictureEquipo{
     width: 18%;
 }
 
-.picturesEquipo{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.nombresEquipo{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    text-align: center;
-}
-
-.caracteristicasEquipo{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
 .museo{
-    height: 500px;
+    height: 1000px;
     background: white;
     padding: 30px; 
 }
@@ -188,49 +202,42 @@
     justify-content: center;
     align-items: center;
     font-family: 'Poppins', sans-serif;
+    color: black;
     border: #0a0a0a 3px solid;
     width: 15%;
     padding: 13px;
     text-align: center;
 }
 
-.clasificacionProfesores{
+.scale-down{
+    transform: scale(1);
+    transition: all 0.4s ease;
+    filter: grayscale(1);
+}
+
+.scale-down:hover{
+    transform: scale(0.9);
+    filter: grayscale(0);
+}
+
+.pictureProfesores{
+    width: 30%;
+}
+
+.pictureEstudiantes{
+    width: 23%;
+}
+
+.pictureProyectos{
+    width: 23%;
+}
+
+.clasificacion{
+    color: #000;
+    align-items: center;
     font-family: 'Poppins', sans-serif;
-    font-size: 13px;
-    margin-left: 10px;
-}
-
-.clasificacionEstudiantes{
-    font-family: 'Poppins', sans-serif;
-    font-size: 13px;
-    margin-right: 40px;
-}
-
-.clasificacionProyectos{
-    font-family: 'Poppins', sans-serif;
-    font-size: 13px;
-    margin-right: 50px;
-}
-
-.pictureMuseo{
-    width: 18%;
-}
-
-.picuresmuseo{
-    margin: 5px 10px;
+    font-size: 15px;
     padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    cursor: pointer;
-}
-
-.textmuseo{
-    width: 100%;
-    padding: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
 
 .end-page{
@@ -247,20 +254,21 @@
 }
 
 .formulario input{
-    width: 80%;
+    width: 25%;
     height: 20px;
-    padding: 15px;
+    padding: 20px;
     margin-bottom: 20px;
 }
 
 .correo{
-    width: 25%;
+    width: 20%;
     height: 50px;
     padding: 15px;
     resize: none;
     margin: none !important;
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
+    background: white;
 }
 
 .mensaje{
@@ -271,6 +279,7 @@
     margin: none !important;
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
+    border: none;
 }
 
 .btnEnviar{
