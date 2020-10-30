@@ -1,602 +1,594 @@
-*{
-    outline: 0 !important;
-    margin: 0px;
+* {
+  outline: 0 !important;
+  margin: 0px;
 }
 
-.home{
-    background: url("../img/Chico-header.png")  #8bbfbf;
-    /*background: linear-gradient(to right, #c2ebeb 0%, #8bbfbf 30%, #4f9999 100%);*/
-    height: 797px;
-    background-position-x: right;
-    background-repeat: no-repeat;
-    background-size: content;
+.home {
+  background: url("../img/Chico-header.png") #8bbfbf;
+  width: 100%;
+  height: 100vh;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media screen and (max-width: 992px) {
+  .home {
+    background-position-y: 20rem;
+    height: 110vh;
+  }
+}
+.logo {
+  width: 60px;
+  margin-left: 30px;
 }
 
-.logo{
-    width: 60px;
-    margin-left: 30px;
+.container-nav {
+  backdrop-filter: blur(5px);
+  background: rgb(0 0 255 / 10%);
 }
 
-.container-nav{
-    backdrop-filter: blur(5px);
-    background: rgb(0 0 255 / 10%);
+.nav-link {
+  color: white;
+  background: #8bbfbf;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  margin: 1rem;
 }
 
-.nav-link{
-    color: white;
-    background: #8bbfbf;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
-    margin: 1rem;
+.icon-menu {
+  font-size: 1.6rem;
 }
 
-.icon-menu{
-    font-size: 1.6rem;
+.tittle-home1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 5rem;
 }
 
-.tittle-home1{
-    font-family: 'Poppins', sans-serif;
-    font-size: 5rem;
+.tittle-home {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.4rem;
 }
 
-.tittle-home{
-    font-family: 'Poppins', sans-serif;
-    font-size: 3.4rem;
+.container-header {
+  align-items: center;
+  display: flex;
 }
 
-.container-header{
-    align-items: center;
-    display: flex;
+.btnHeader {
+  background: #00a9ac;
+  color: white;
+  border: 0px;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
 }
 
-.article-header{
-    margin-top: -30rem;
-    transform: translateY(0rem);
+.pictureHome {
+  width: 60%;
+  align-items: right;
 }
 
-.btnHeader{
-    background: #00a9ac;
-    color: white;
-    border: 0px;
-    padding: 0.5rem 2rem;
-    cursor: pointer;
-    font-family: 'Poppins', sans-serif;
+.tecnicas {
+  background: white;
 }
 
-.pictureHome{
-    width: 60%;
-    align-items: right;
-} 
-
-.tecnicas{
-    background: white;
+.tittle-tecnicas {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  font-family: "Poppins", sans-serif;
+  text-align: end;
 }
 
-.tittle-tecnicas{
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    font-family: 'Poppins', sans-serif;
-    text-align: end;
+.text {
+  font-family: "Samsung Sharp Sans";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 12px;
+  padding: 5px;
 }
 
-.text{
-    font-family: 'Samsung Sharp Sans';
-    font-weight: bold;
-    font-style: normal;
-    font-size: 12px;
-    padding: 5px;
+.textTecnicas {
+  font-family: "Samsung Sharp Sans";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 12px;
+  text-align: justify;
 }
 
-.textTecnicas{
-    font-family: 'Samsung Sharp Sans';
-    font-weight: bold;
-    font-style: normal;
-    font-size: 12px;
-    text-align: justify;
+.img-mano {
+  position: absolute;
+  width: 30%;
+  margin-left: 64%;
 }
 
-.img-mano{
-    position: absolute;
-    width: 30%;
-    margin-left: 64%;
+.img-tecnicas {
+  width: 30%;
 }
 
-.img-tecnicas{
-    width: 30%;
+.metodología {
+  background: #eac6e0;
+  height: 250px;
+  padding: 40px;
 }
 
-.metodología{
-    background: #eac6e0;
-    height: 250px;
-    padding: 40px;
+.tittle-metodologia {
+  font-family: "Poppins", sans-serif;
 }
 
-.tittle-metodologia{
-    font-family: 'Poppins', sans-serif;
+.btnMetodología {
+  background: #454545;
+  color: white;
+  border: 0px;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
 }
 
-.btnMetodología{
-    background: #454545;
-    color: white;
-    border: 0px;
-    padding: 0.5rem 2rem;
-    cursor: pointer;
-    font-family: 'Poppins', sans-serif;
+.container-conocenos {
+  background: white;
+  height: 500px;
+  padding: 20px;
 }
 
-.container-conocenos{
-    background: white;
-    height: 500px;
-    padding: 20px;
+.tittle-conocenos {
+  font-family: "Poppins", sans-serif;
+  border: #0a0a0a 2px solid;
+  width: 17%;
+  padding: 15px;
+  text-align: center;
 }
 
-.tittle-conocenos{
-    font-family: 'Poppins', sans-serif;
-    border: #0a0a0a 2px solid;
-    width: 17%;
-    padding: 15px;
-    text-align: center;
+.textConocenos {
+  font-family: "Samsung Sharp Sans";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 12px;
 }
 
-.textConocenos{
-    font-family: 'Samsung Sharp Sans';
-    font-weight: bold;
-    font-style: normal;
-    font-size: 12px;
+.img-pincel {
+  width: 80%;
 }
 
-.img-pincel{
-    width: 80%;
+.equipo {
+  background: #ffccb9;
 }
 
-.equipo{
-    background: #ffccb9;
+.tittle-equipo {
+  color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
 }
 
-.tittle-equipo{
-    color: black;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Poppins', sans-serif;
+.nombre {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  background: white;
+  color: black;
+  width: 100%;
+  padding: 4px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.nombre{
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    background: white;
-    color: black;
-    width: 100%;
-    padding: 4px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.caracteristicas {
+  font-family: "Just Another Hand", cursive;
+  font-size: 25px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.caracteristicas{
-    font-family: 'Just Another Hand', cursive;
-    font-size: 25px;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.pictureEquipo {
+  width: 18%;
 }
 
-.pictureEquipo{
-    width: 18%;
+.museo {
+  height: 1000px;
+  background: white;
+  padding: 30px;
 }
 
-.museo{
-    height: 1000px;
-    background: white;
-    padding: 30px; 
+.tittle-museo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  border: #0a0a0a 3px solid;
+  width: 15%;
+  padding: 13px;
+  text-align: center;
 }
 
-.tittle-museo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Poppins', sans-serif;
-    color: black;
-    border: #0a0a0a 3px solid;
-    width: 15%;
-    padding: 13px;
-    text-align: center;
+.scale-down {
+  transform: scale(1);
+  transition: all 0.4s ease;
+  filter: grayscale(1);
 }
 
-.scale-down{
-    transform: scale(1);
-    transition: all 0.4s ease;
-    filter: grayscale(1);
+.scale-down:hover {
+  transform: scale(0.9);
+  filter: grayscale(0);
 }
 
-.scale-down:hover{
-    transform: scale(0.9);
-    filter: grayscale(0);
+.pictureProfesores {
+  width: 30%;
 }
 
-.pictureProfesores{
-    width: 30%;
+.pictureEstudiantes {
+  width: 23%;
 }
 
-.pictureEstudiantes{
-    width: 23%;
+.pictureProyectos {
+  width: 23%;
 }
 
-.pictureProyectos{
-    width: 23%;
+.clasificacion {
+  color: #000;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  padding: 10px;
 }
 
-.clasificacion{
-    color: #000;
-    align-items: center;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    padding: 10px;
+.end-page {
+  background: #fad27c;
 }
 
-.end-page{
-    background: #fad27c;
+.logoFooter {
+  width: 10%;
 }
 
-.logoFooter{
-    width: 10%;
+.formulario h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
 }
 
-.formulario h5{
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
+.formulario input {
+  width: 25%;
+  height: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
-.formulario input{
-    width: 25%;
-    height: 20px;
-    padding: 20px;
-    margin-bottom: 20px;
+.correo {
+  width: 20%;
+  height: 50px;
+  padding: 15px;
+  resize: none;
+  margin: none !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  background: white;
 }
 
-.correo{
-    width: 20%;
-    height: 50px;
-    padding: 15px;
-    resize: none;
-    margin: none !important;
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    background: white;
+.mensaje {
+  width: 25%;
+  height: 100px;
+  padding: 15px;
+  resize: none;
+  margin: none !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  border: none;
 }
 
-.mensaje{
-    width: 25%;
-    height: 100px;
-    padding: 15px;
-    resize: none;
-    margin: none !important;
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    border: none;
+.btnEnviar {
+  background: #000000;
+  color: white;
+  border: 0px;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
 }
 
-.btnEnviar{
-    background: #000000;
-    color: white;
-    border: 0px;
-    padding: 0.5rem 1.5rem;
-    cursor: pointer;
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-}
-
-.img-footer{
-    cursor: pointer;
+.img-footer {
+  cursor: pointer;
 }
 
 /*Tipografias
  --fs: 18px
  --ff: 'Poppins', sans-serif;*/
 
-
 /*Página emergente Registro*/
+.contenedor-padre {
+  width: 100%;
+  height: 450px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  display: flex;
+  border-radius: 5px;
+  position: relative;
+  z-index: 3;
+}
 
-*{
-    padding: 0px;
-    margin: 0;
-    text-decoration: none;
- }
- 
- .contenedor-padre{
-     width: 100%;
-     height: 450px;
-     background-color: rgb(255, 255, 255);
-     margin: auto;
-     display: flex;
-     border-radius: 5px;
-     position: relative;
-     z-index: 3;
- }
- 
- .left-box {
-     width: 50%;
-     height: 100%;
-     display: flex;
-     flex-direction: column;
-     background-image: url(../img/Pinceles2\ emergente.png);
-     border-right: solid 0.4px rgba(0, 0, 0, 0.22);
-     background-position: 55% 100%;
- }
- 
- .top-left{
-     width: 100%;
-     height: 60%;
-     display: flex;
-     flex-direction: column;
- }
- 
- .box-icon{
-     width: 100%;
-     height: 60%;
-     display: flex;
-     justify-content: center;
-     align-items: center;
- }
- 
- .box-icon img {
-     width: 180px;
-     height: 180px;
-     margin-top: 40px;
- }
- 
- .box-titulo{
-     width: 97%;
-     height: 50%;
-     display: flex;
-     justify-content: center;
-     align-items: center;
- }
- 
- .box-titulo h2{
-    font-size: 25px;
-    text-align: center;
-    font-family: 'Poppins';
- }
- 
- .bot-left{
-     width: 100%;
-     height: auto;
- }
- 
- /*START RIGTH BOX*/
- 
- .right-box{
-     width:50%;
-     height: 100%;
-     display: flex;
-     flex-direction: column;
- }
- 
- .top-right{
-     height: 30%;
-     width: 100%;
- }
- 
- .box-titulo-sesion{
-     width: 100%;
-     height: 50%;
-     display: flex;
-     justify-content: center;
-     align-items: flex-end;
-     text-align: center;
-     font-family: 'Poppins';
- }
- 
- .box-titulo-sesion h3{
-     font-size: 30px;
- }
- 
- .box-contenedor-logos{
-     width: 60%;
-     height: 50%;
-     display: flex;
-     justify-content: space-evenly;
-     align-items: flex-end;
-     text-align: center;
-     margin: auto;
- }
- 
- .box-facebook, .box-google{
-     width: 40%;
-     height: 40%;
-     background-color:#3569b4;
-     border-radius: 8px;
-     display: flex;
-     justify-content:center;
-     align-items:center;
-     padding: 22px;
- }
- 
- .box-facebook:hover{
-     background-color:#30568b;
-     cursor: pointer;
- }
- 
- .box-google{
-     background-color:#fe3d38;
- }
- 
- .box-google:hover{
-     background-color:#cc3934;
-     cursor: pointer;
- }
- 
+.left-box {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/Pinceles2\ emergente.png);
+  border-right: solid 0.4px rgba(0, 0, 0, 0.22);
+  background-position: 55% 100%;
+}
 
- .box-facebook img{
-    width: 32px;
-    height: 30px;
- }
- 
- .box-google img{
-     width: 23px;
-     height: 23px;
- }
- 
- .mid-right {
-     width: 100%;
-     height: 50%;
-     display: inline-flex;
-     align-items: center;
- }
- 
- .contenedor-formulario {
-     width: 60%;
-     height: 60%;
-     display: flex;
-     flex-direction: column;
-     margin: auto;
-     justify-content: space-evenly;
- }
- 
- .contenedor-formulario input {
-     width: 99%;
-     height: 25px;
-     margin: auto;
-     display: inline-block;
-     border-bottom: solid 1px #80808057;
-     background-color: #fff0;
-     color: rgba(12,18,28,.87);
-     padding: 5px;
-     font-weight: 100;
- }
- 
- .box-correo,.box-email{
-     width: auto;
-     height: 110px;
-     position: relative;
-     margin-bottom: 20px;
-     opacity: 50%;
-     font-size: 20px;
- }
- 
- label {
-     position: absolute;
-     top: 10px;
-     left: 5px;
-     font-size: 10px;
-     color: rgba(12,18,28,.87);
-     font-family: 'Samsung Sharp Sans';
-     font-weight: 100;
- }
- 
- input {
-     width: 80%;
-     margin: auto;
-     display: inline-block;
-     border: 0px;
-     background: rgba(0, 0, 0, 0);
-     color: rgba(12,18,28,.87);
-     font-family: 'Samsung Sharp Sans';
-     padding: 5px;
-     outline: none;
- }
- 
- input:focus{
-     padding: 5px;
-     border-bottom: solid 1px #e46d3e;;
- }
- 
- #email:focus+label{
-     top: 0px;
-     font-size: 8px;
-     margin-bottom: 2px;
-     transition: all .3s ease-in-out;
- }
- 
- 
- #password:focus+label{
-     top: 0px;
-     font-size: 8px;
-     margin-bottom: 2px;
-     transition: all .2s ease-in-out;
- }
- 
- .bot-right{
-     width: 100%;
-     height: 30%;
- }
- 
- .box-olvidaste{
-     width: 100%;
-     height: 25px; 
- }
- 
- .box-olvidaste a {
-     font-size: 12px;
-     font-family: 'Samsung Sharp Sans';
-     font-weight: bold;
-     color: rgb(0, 0, 0);
- }
- 
- .box-olvidaste a:hover{
-     text-decoration: underline;
- }
- 
- .box-contenedor-btn {
-     width: 100%;
-     height: auto;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     padding-top: 18px;
-     font-family: 'Poppins';  
- }
- 
- .box-contenedor-btn button {
-     width: 115px;
-     height: 36px;
-     border-radius: 1px;
-     background-color: #ff8353;
-     border: 0px;
-     font-size: 13px;
-     color: white;
- }
- 
- .box-contenedor-btn button:hover {
-     background-color: #e46d3e;
-     cursor: pointer;
- }
- 
- .bot-right{
-     width: 100%;
-     height: 20%;
- }
- 
- .box-texto-condiciones {
-     width: 100%;
-     height: 100%;
-     text-align: center;
-     display: flex;
-     justify-content: center;
-     align-items: flex-start;
- }
- 
- .box-texto-condiciones span {
-     width: 75%;
-     /* height: 30px; */
-     text-align: center;
-     /* display: flex;
+.top-left {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-icon {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-icon img {
+  width: 180px;
+  height: 180px;
+  margin-top: 40px;
+}
+
+.box-titulo {
+  width: 97%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-titulo h2 {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+.bot-left {
+  width: 100%;
+  height: auto;
+}
+
+/*START RIGTH BOX*/
+
+.right-box {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-right {
+  height: 30%;
+  width: 100%;
+}
+
+.box-titulo-sesion {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+.box-titulo-sesion h3 {
+  font-size: 30px;
+}
+
+.box-contenedor-logos {
+  width: 60%;
+  height: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  text-align: center;
+  margin: auto;
+}
+
+.box-facebook,
+.box-google {
+  width: 40%;
+  height: 40%;
+  background-color: #3569b4;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 22px;
+}
+
+.box-facebook:hover {
+  background-color: #30568b;
+  cursor: pointer;
+}
+
+.box-google {
+  background-color: #fe3d38;
+}
+
+.box-google:hover {
+  background-color: #cc3934;
+  cursor: pointer;
+}
+
+.box-facebook img {
+  width: 32px;
+  height: 30px;
+}
+
+.box-google img {
+  width: 23px;
+  height: 23px;
+}
+
+.mid-right {
+  width: 100%;
+  height: 50%;
+  display: inline-flex;
+  align-items: center;
+}
+
+.contenedor-formulario {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.contenedor-formulario input {
+  width: 99%;
+  height: 25px;
+  margin: auto;
+  display: inline-block;
+  border-bottom: solid 1px #80808057;
+  background-color: #fff0;
+  color: rgba(12, 18, 28, 0.87);
+  padding: 5px;
+  font-weight: 100;
+}
+
+.box-correo,
+.box-email {
+  width: auto;
+  height: 110px;
+  position: relative;
+  margin-bottom: 20px;
+  opacity: 50%;
+  font-size: 20px;
+}
+
+label {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  font-size: 10px;
+  color: rgba(12, 18, 28, 0.87);
+  font-family: "Samsung Sharp Sans";
+  font-weight: 100;
+}
+
+input {
+  width: 80%;
+  margin: auto;
+  display: inline-block;
+  border: 0px;
+  background: rgba(0, 0, 0, 0);
+  color: rgba(12, 18, 28, 0.87);
+  font-family: "Samsung Sharp Sans";
+  padding: 5px;
+  outline: none;
+}
+
+input:focus {
+  padding: 5px;
+  border-bottom: solid 1px #e46d3e;
+}
+
+#email:focus + label {
+  top: 0px;
+  font-size: 8px;
+  margin-bottom: 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+#password:focus + label {
+  top: 0px;
+  font-size: 8px;
+  margin-bottom: 2px;
+  transition: all 0.2s ease-in-out;
+}
+
+.bot-right {
+  width: 100%;
+  height: 30%;
+}
+
+.box-olvidaste {
+  width: 100%;
+  height: 25px;
+}
+
+.box-olvidaste a {
+  font-size: 12px;
+  font-family: "Samsung Sharp Sans";
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.box-olvidaste a:hover {
+  text-decoration: underline;
+}
+
+.box-contenedor-btn {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 18px;
+  font-family: "Poppins";
+}
+
+.box-contenedor-btn button {
+  width: 115px;
+  height: 36px;
+  border-radius: 1px;
+  background-color: #ff8353;
+  border: 0px;
+  font-size: 13px;
+  color: white;
+}
+
+.box-contenedor-btn button:hover {
+  background-color: #e46d3e;
+  cursor: pointer;
+}
+
+.bot-right {
+  width: 100%;
+  height: 20%;
+}
+
+.box-texto-condiciones {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.box-texto-condiciones span {
+  width: 75%;
+  /* height: 30px; */
+  text-align: center;
+  /* display: flex;
      justify-content: center;
      align-items: center; */
-     font-size: 12px;
-     color: rgba(71, 72, 72, 0.87);
- }
- 
- .box-texto-condiciones a{
-     font-size: 12px;
-     font-weight: 500;
-     color: rgb(0, 0, 0)
- }
- 
+  font-size: 12px;
+  color: rgba(71, 72, 72, 0.87);
+}
+
+.box-texto-condiciones a {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
