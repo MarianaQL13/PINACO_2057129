@@ -1,395 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pinaco</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="shortcut icon" type="imagelx-icon" href="img/Logo_header.png" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="imagelx-icon" href="img/Logo_header.png">
+</head>
+
+<body>
     <section class="modals">
-      <!-- Modal -->
-      <div
-        class="modal fade"
-        id="registro"
-        data-backdrop="static"
-        data-keyboard="false"
-        tabindex="-1"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button
-                type="button"
-                class="close"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <section id="contenedor-padre-padre">
+        <!-- Modal -->
+<div class="modal fade" id="registro" data-backdrop="static" data-keyboard="false" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <section id="contenedor-padre-padre">
                 <section id="box-opacidad">
-                  <div class="contenedor-padre">
+                <div class="contenedor-padre">
                     <div class="left-box">
-                      <div class="top-left">
-                        <div class="box-icon">
-                          <img
-                            src="img/Logo emergente.png"
-                            alt="logotipo Pinaco"
-                          />
+                        <div class="top-left">
+
+                            <div class="box-icon">
+                                <img src="img/Logo emergente.png" alt="logotipo Pinaco">
+                            </div>
+                            <div class="box-titulo">
+                                <h2>¡Te damos la bienvenida a <br>Pinaco!</h2>
+                            </div>
                         </div>
-                        <div class="box-titulo">
-                          <h2>¡Te damos la bienvenida a <br />Pinaco!</h2>
+                        <div class="bot-left">
+                            <!-- <img src="img/Pinceles.png" alt=""> -->
                         </div>
-                      </div>
-                      <div class="bot-left">
-                        <!-- <img src="img/Pinceles.png" alt=""> -->
-                      </div>
                     </div>
                     <div class="right-box">
-                      <div class="top-right">
-                        <div class="box-titulo-sesion">
-                          <h3>Iniciar Sesión</h3>
+                        <div class="top-right">
+                            <div class="box-titulo-sesion">
+                                <h3>Iniciar Sesión</h3>
+                            </div>
+                            <div class="box-contenedor-logos">
+                                <div class="box-facebook">
+                                    <img src="img/Facebook emergente.png" alt="">
+                                </div>
+                                <div class="box-google">
+                                    <img src="img/Gmail emergente.png" alt="">
+                                </div>
+                            </div>
                         </div>
-                        <div class="box-contenedor-logos">
-                          <div class="box-facebook">
-                            <img src="img/Facebook emergente.png" alt="" />
-                          </div>
-                          <div class="box-google">
-                            <img src="img/Gmail emergente.png" alt="" />
-                          </div>
+                        <div class="mid-right">
+                            <div class="contenedor-formulario">
+                                <div class="box-correo">
+                                    <input id="email" type="email">
+                                    <label for="email">Correo electrónico</label>
+                                </div>
+                                <div class="box-email">
+                                    <input id="password" type="password">
+                                    <label for="email">Contraseña</label>
+                                </div>
+                                <div class="box-olvidaste">
+                                    <a href="#">¿Olvidaste tu contraseña?</a>
+                                </div>
+                                <div class="box-contenedor-btn">
+                                    <button>Ingresar</button>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                      <div class="mid-right">
-                        <div class="contenedor-formulario">
-                          <div class="box-correo">
-                            <input id="email" type="email" />
-                            <label for="email">Correo electrónico</label>
-                          </div>
-                          <div class="box-email">
-                            <input id="password" type="password" />
-                            <label for="email">Contraseña</label>
-                          </div>
-                          <div class="box-olvidaste">
-                            <a href="#">¿Olvidaste tu contraseña?</a>
-                          </div>
-                          <div class="box-contenedor-btn">
-                            <button>Ingresar</button>
-                          </div>
+                        <div class="bot-right">
+                            <div class="box-texto-condiciones">
+                                <span>Al ingresar, aceptas las
+                                     <a href="#">Condiciones del servicio</a>
+                                    y la <br>
+                                    <a href="#">Política de privacidad</a>
+                                    de Pinaco.
+                                </span>
+                            </div>
                         </div>
-                      </div>
-                      <div class="bot-right">
-                        <div class="box-texto-condiciones">
-                          <span
-                            >Al ingresar, aceptas las
-                            <a href="#">Condiciones del servicio</a>
-                            y la <br />
-                            <a href="#">Política de privacidad</a>
-                            de Pinaco.
-                          </span>
-                        </div>
-                      </div>
                     </div>
-                  </div>
-                </section>
-              </section>
-            </div>
-          </div>
+                </div>
+            </section>
+         </section>
         </div>
       </div>
-    </section>
-
-    <!-- CODIFICACIÓN HOME -->
+    </div>
+  </div>
+</section>
+        
+<!-- CODIFICACIÓN HOME -->
 
     <section class="home">
-        <header class="container-nav py-3">
-          <nav class="navbar navbar-expand-lg">
-            <a href="#" class="navbar-brand logo"
-              ><img
-                class="img-fluid"
-                src="img/Logo_header.png"
-                alt="section-header"
-            /></a>
-            <button
-              class="navbar-toggler"
-              data-toggle="collapse"
-              data-target="#mainMenu"
-              aria-expanded="false"
-            >
-              <span class="fas fa-bars icon-menu"></span>
-            </button>
+     <header class="container-nav py-3">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                    <a href="#" class="navbar-brand logo"><img class="img-fluid" src="img/Logo_header.png" alt="section-header"></a>
+                    <button class="navbar-toggler"  data-toggle="collapse" data-target="#mainMenu"  aria-expanded="false">
+                        <span class="fas fa-bars icon-menu"></span>
+                    </button>
 
-            <div class="collapse navbar-collapse" id="mainMenu">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="#Técnicas">Técnicas</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#Metodología">Metodología</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#¿Quiénes somos?"
-                    >¿Quiénes somos?</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#Conocenos">Conócenos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#Museo">Museo</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+                    <div class="collapse navbar-collapse" id="mainMenu">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                               <a class="nav-link" href="#Técnicas">Técnicas</a> 
+                            </li>
+                            <li class="nav-item">
+                               <a class="nav-link" href="#Metodología">Metodología</a>
+                            </li>
+                            <li class="nav-item">
+                               <a class="nav-link" href="#¿Quiénes somos?">¿Quiénes somos?</a>
+                            </li>
+                            <li class="nav-item">
+                               <a class="nav-link" href="#Conocenos">Conócenos</a>
+                            </li>
+                            <li class="nav-item">
+                               <a class="nav-link" href="#Museo">Museo</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
         </header>
-      <div class="container py-5">
         <section class="container-header h-100">
-          <div class="row justify-content-start">
+        <div class="row justify-content-start">
             <div>
-              <article class="article-header cold-md-6">
+                <article class="article-header cold-md-6">                            
                 <h1 class="tittle-home1">PINTURA</h1>
                 <h1 class="tittle-home">PARA TODOS</h1>
-              </article>
+                </article>
 
-              <div>
-                <button
-                  data-toggle="modal"
-                  data-target="#registro"
-                  class="btnHeader mt-4"
-                >
-                  Ingresar
-                </button>
-              </div>
-            </div>
-          </div>
+                <div>
+                    <button data-toggle="modal" data-target="#registro" class="btnHeader mt-4">Ingresar</button>
+                </div>
+            </div>     
+        </div> 
         </section>
-      </div>
-    </section>
+        </section>
 
     <section id="Técnicas" class="tecnicas">
-      <div class="container">
-        <div>
-          <h2 class="tittle-tecnicas">TÉCNICAS</h2>
-        </div>
+         <div class="container">
 
-        <div>
-          <p class="textTecnicas">
-            En Pinaco utilizamos principalmente dos técnicas de pintura,<br />acuarela
-            y vinilos, porque son recursivas, de fácil acceso, además<br />son
-            económicas; con estas podrás hacer tus propias obras de arte.
-          </p>
-        </div>
-
-        <div>
-          <img
-            class="img-tecnicas"
-            src="img/Acuarelas.png"
-            alt="section-tecnicas"
-          />
-          <img
-            class="img-tecnicas"
-            src="img/Vinilos.png"
-            alt="section-tecnicas"
-          />
-        </div>
-
-        <div>
-          <img class="img-mano" src="img/Pinceles.png" />
-        </div>
-      </div>
-    </section>
-
-    <section id="Metodología" class="metodología">
-      <div class="container">
-        <div>
-          <article>
-            <h2 class="tittle-metodologia">METODOLOGÍA</h2>
-            <p class="text">
-              Te acompañamos a expresar y comunicar por medio de la pintura tu
-              pasión por el arte;<br />en Pinaco irás subiendo de nivel a medida
-              que vayas avanzando. Con nosotros tendrás<br />la libertad de
-              escoger cual de las dos técnicas principales de pintura te gusta
-              más.
-            </p>
-            <button
-              data-toggle="modal"
-              data-target="#registro"
-              class="btnMetodología"
-            >
-              Ingresar
-            </button>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="¿Quiénes somos?" class="container-conocenos">
-      <div class="row">
-        <div>
-          <h2 class="tittle-conocenos">¿QUIÉNES<br />SOMOS?</h2>
-        </div>
-
-        <div>
-          <p class="textConocenos">
-            Somos un curso de pintura online; nuestro fin es<br />ofrecer un
-            servicio de calidad que promueva un<br />aprendizaje creativo,
-            didáctico e integral a todos<br />nuestros usuarios. Con nosotros
-            podrás desarrollar<br />tu potencial social, emocional y artístico.
-          </p>
-        </div>
-
-        <div>
-          <img class="img-pincel" src="img/Pincel.png" />
-        </div>
-      </div>
-    </section>
-
-    <section id="Conocenos" class="text-light py-4 equipo">
-      <div class="container">
-        <div>
-          <h2 class="tittle-equipo">EQUIPO</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-md-3">
-            <article>
-              <img src="img/Foto Mariana.png" class="img-fluid" alt="" />
-              <p class="nombre">Mariana Quintero López</p>
-              <p class="caracteristicas">Detallista - Ordenada - Responsable</p>
-            </article>
-          </div>
-          <div class="col-md-3">
-            <article>
-              <img src="img/Foto Ximena.png" class="img-fluid" alt="" />
-              <p class="nombre">Ximena Sofía Estrada</p>
-              <p class="caracteristicas">Divertida - Espontánea - Sincera</p>
-            </article>
-          </div>
-          <div class="col-md-3">
-            <article>
-              <img src="img/Foto Jenifer.png" class="img-fluid" alt="" />
-              <p class="nombre">Jenifer Jaramillo López</p>
-              <p class="caracteristicas">Carismática - Creativa - Recursiva</p>
-            </article>
-          </div>
-          <div class="col-md-3">
-            <article>
-              <img src="img/Foto Santiago.png" class="img-fluid" alt="" />
-              <p class="nombre">Santiago José Galindo</p>
-              <p class="caracteristicas">Paciente - Apasinado - Meticuloso</p>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="Museo" class="text-light py-4 museo">
-      <div class="container">
-        <div>
-          <h2 class="tittle-museo">MUSEO</h2>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <img
-              class="pictureProfesores img-fluid scale-down"
-              src="img/Profesores2.JPG"
-              alt=""
-            />
-            <p class="clasificacion">Obras de profesores</p>
-          </div>
-          <div class="col-md-4">
-            <img
-              class="pictureEstudiantes img-fluid scale-down"
-              src="img/Estudiantes2.JPG"
-              alt=""
-            />
-            <p class="clasificacion">Obras de estudiantes</p>
-          </div>
-          <div class="col-md-4">
-            <img
-              class="pictureProyectos img-fluid scale-down"
-              src="img/Proyectos2.JPG"
-              alt=""
-            />
-            <p class="clasificacion">Proyectos</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="end-page">
-      <section class="container">
-        <div class="row">
-          <img
-            class="logoFooter"
-            src="img/Logo_footer.png"
-            alt="section-footer"
-          />
-        </div>
-
-        <div class="row">
-          <div class="col">
-            <h5>
-              ©Pinaco 2020 <br />
-              Todos los derechos reservados
-            </h5>
-          </div>
-        </div>
-
-        <div class="col">
-          <form class="formulario">
-            <h5>Si tienes dudas o sugerencias ¡Escríbenos!</h5>
-            <input class="correo" placeholder="Correo electrónico" />
-            <textarea
-              class="mensaje"
-              placeholder="Escribe tu mensaje"
-            ></textarea>
-
-            <div class="btnFooter">
-              <button class="btnEnviar">Enviar</button>
+            <div>
+                <h2 class="tittle-tecnicas">TÉCNICAS</h2>
             </div>
-          </form>
-        </div>
 
-        <div class="col">
-          <div class="d-flex align-items-center">
-            <img class="img-footer" src="img/Whatsapp.png" alt="" />
-            <h6 class="ml-2 m-0">3005394452</h6>
-          </div>
-          <div class="d-flex align-items-center">
-            <img class="img-footer" src="img/Facebook.png" alt="" />
-            <h6 class="ml-2 m-0">Curso Pinaco</h6>
-          </div>
-          <div class="d-flex align-items-center">
-            <img class="img-footer" src="img/Instagram.png" alt="" />
-            <h6 class="ml-2 m-0">@pinaco_cursonline</h6>
-          </div>
-          <div class="d-flex align-items-center">
-            <img class="img-footer" src="img/Gmail.png" alt="" />
-            <h6 class="ml-2 m-0">cursonlinepinaco@gmail.com</h6>
-          </div>
-        </div>
-      </section>
-    </footer>
+            <div>
+                <p class="textTecnicas">En Pinaco utilizamos principalmente dos técnicas de pintura,<br>acuarela y vinilos, porque son
+					recursivas, de fácil acceso, además<br>son económicas; con estas podrás hacer tus propias obras de
+					arte.</p>
+            </div>
 
+            <div>
+             <img class="img-tecnicas" src="img/Acuarelas.png" alt="section-tecnicas">
+            <img class="img-tecnicas" src="img/Vinilos.png" alt="section-tecnicas">
+            </div>
+
+            <div>
+                <img class="img-mano" src="img/Pinceles.png">
+            </div>
+            
+        </div>
+    </section>
+    
+    <section id="Metodología" class="metodología">
+                <div class="container">
+                    <div>
+                        <article>
+                            <h2 class="tittle-metodologia">METODOLOGÍA</h2>
+                            <P class="text">Te acompañamos a expresar y comunicar por medio de la pintura tu pasión por el arte;<br>en Pinaco irás subiendo 
+                            de nivel a medida que vayas avanzando. Con nosotros tendrás<br>la libertad de escoger cual de las dos técnicas principales 
+                            de pintura te gusta más.</P>
+                            <button data-toggle="modal" data-target="#registro" class="btnMetodología">Ingresar</button>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        
+        <section id="¿Quiénes somos?" class="container-conocenos">
+            <div class="row">
+                    <div>
+                        <h2 class="tittle-conocenos">¿QUIÉNES<br>SOMOS?</h2>
+                    </div>
+    
+                    <div>
+                        <p class="textConocenos">Somos un curso de pintura online; nuestro fin es<br>ofrecer un servicio de calidad que promueva un<br>aprendizaje 
+                        creativo, didáctico e integral a todos<br>nuestros usuarios. Con nosotros podrás desarrollar<br>tu potencial social, 
+                        emocional y artístico.</p>
+                    </div>
+
+                    <div>
+                        <img class="img-pincel" src="img/Pincel.png">
+                    </div>
+
+                </div>
+        </section>
+    
+
+        <section id="Conocenos" class="text-light py-4 equipo">
+            <div class="container">
+                <div>
+                   <h2 class="tittle-equipo">EQUIPO</h2> 
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <article>
+                            <img src="img/Foto Mariana.png" class="img-fluid py-4" alt="">
+                            <p class="nombre">Mariana Quintero López</p>
+                            <p class="caracteristicas">Detallista - Ordenada - Responsable</p>
+                        </article>
+                    </div>
+                    <div class="col-md-3">
+                        <article>
+                            <img src="img/Foto Ximena.png" class="img-fluid py-4" alt="">
+                            <p class="nombre">Ximena Sofía Estrada</p>
+                            <p class="caracteristicas">Divertida - Espontánea - Sincera</p>
+                        </article>
+                    </div>
+                    <div class="col-md-3">
+                        <article>
+                            <img src="img/Foto Jenifer.png" class="img-fluid py-4" alt="">
+                            <p class="nombre">Jenifer Jaramillo López</p>
+                            <p class="caracteristicas">Carismática - Creativa - Recursiva</p>
+                        </article>
+                    </div>
+                    <div class="col-md-3">
+                        <article>
+                            <img src="img/Foto Santiago.png" class="img-fluid py-4" alt="">
+                            <p class="nombre">Santiago José Galindo</p>
+                            <p class="caracteristicas">Paciente - Apasinado - Meticuloso</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="Museo" class="text-light py-4 museo">
+            <div class="container">
+                <div>
+                    <h2 class="tittle-museo">MUSEO</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="pictureMuseo img-fluid py-4 scale-down" src="img/Profesores2.JPG" alt="">
+                        <p class="clasificacion">Obras de profesores</p>  
+                    </div>
+                    <div class="col-md-4">
+                        <img class="pictureMuseo img-fluid py-4 scale-down" src="img/Estudiantes2.JPG" alt="">
+                        <p class="clasificacion">Obras de estudiantes</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="pictureMuseo img-fluid py-4 scale-down" src="img/Proyectos2.JPG" alt="">
+                        <p class="clasificacion">Proyectos</p>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <footer class="text-light py-5 end-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="img-fluid">
+                            <img class="py-3 logoFooter" src="img/Logo_footer.png" alt="section-footer">
+                            <h5 class="textfooter">©Pinaco 2020</h5>
+                            <h5 class="py-1 textfooter">Todos los derechos reservados</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div>
+                            <h5 class="textfooter">Si tienes dudas o sugerencias ¡Escríbenos!</h5>
+                            <form class="formulario">
+                                <div>
+                                    <input class="correo" placeholder="Correo electrónico"/>
+                                </div>
+                            
+                               <div>
+                                   <textarea class="mensaje" placeholder="Escribe tu mensaje"></textarea>
+                               </div>
+                               
+                               <div>
+                                   <button class="ml-auto btnEnviar">Enviar</button>
+                               </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="row">
+                            <div class="d-flex align-items-center py-2">
+                            <img class="img-footer" src="img/Whatsapp.png" alt="">
+                            <h6 class="ml-2 m-0 textfooter">3005394452</h6>
+                        </div>
+                        <div class="d-flex align-items-center py-2"> 
+                            <img class="img-footer" src="img/Facebook.png" alt=""> 
+                            <h6 class="ml-2 m-0 textfooter">Curso Pinaco</h6>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <img class="img-footer" src="img/Instagram.png" alt=""> 
+                            <h6 class="ml-2 m-0 textfooter">@pinaco_cursonline</h6>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <img class="img-footer" src="img/Gmail.png" alt="">
+                            <h6 class="ml-2 m-0 textfooter">cursonlinepinaco@gmail.com</h6>
+                        </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </footer>
+    
     <!-- jQuery -->
-    <script src="bootstrap/js/jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.js"></script>
-  </body>
+<script src="bootstrap/js/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+
+</body>
 </html>
+
+
